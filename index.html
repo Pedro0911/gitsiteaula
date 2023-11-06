@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--icones-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!--css-->
+    
+    <link rel="stylesheet" href="style.css">
+    <title>hostSite</title>
+    
+    
+</head>
+<body>
+    <!--<i class="fas fa-shield-alt"></i>-->
+
+    <div class="container">
+        <div id="bg-nav">
+            <nav>
+                <div><a href="#"><img src="/img/logo.png" alt="logotipo" id="topo-logo"></a></div>
+                <div id='options'>
+                    <ul>
+                        <li class="nav-menu"><a href="#">Valores</a></li>
+                        <li class="nav-menu"><a href="#">Contato</a></li>
+                        <li class="nav-menu"><a href="#">Sobre</a></li>
+                        <li class="nav-menu" id="btn"><a href="#" >Entrar</a></li>
+                    </ul>
+                </div>        
+            </nav>
+        </div>
+
+        <main>
+            <div>
+                <a href="#"><h1>WWW Host</h1></a>
+                <p>Os melhores serviços de Hospedagens da américa Latina</p>
+            </div>
+        </main>       
+    </div>
+    <Section class="seção-beneficio">
+        <div class="card-beneficio">
+            <i class="fas fa-shield-alt"></i>
+            <h1>segurança</h1>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+                    Quos, laboriosam! Necessitatibus temporibus est neque<br>
+                    loribus modi eaque veritatis quisquam laboriosam<br>
+                    dam delectus facere saepe consequuntur expedita deserunt</p>
+            </div>
+        </div>
+
+        <div class="card-beneficio">
+            <i class="fas fa-rocket"></i>
+            <h1>Performance</h1>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+                    Quos, laboriosam! Necessitatibus temporibus est neque<br>
+                    loribus modi eaque veritatis quisquam laboriosam<br>
+                    dam delectus facere saepe consequuntur expedita deserunt</p>
+            </div>
+        </div>
+
+        <div class="card-beneficio">
+            <i class="fas fa-comment"></i>
+            <h1>suporte</h1>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>
+                    Quos, laboriosam! Necessitatibus temporibus est neque<br>
+                    loribus modi eaque veritatis quisquam laboriosam<br>
+                    dam delectus facere saepe consequuntur expedita deserunt</p>
+            </div>
+        </div>
+    </Section>
+
+    <section class="values">
+        <div id="title-values">
+            <h2>confira nossos planos</h2>
+        </div>
+
+        <div class="center"><!--sever apenas pra 'quebrar a linha de display block dos valores'-->
+            <div class="values-container">
+                <div>
+                    <div class="tipo-promo">Basic</div>
+                    <h2><span class="cents">R$</span> 25,<span class="cents">80</span></h2>
+                    <ul class="benefits">
+                        <li>1 ano de domínio grátis</li>
+                        <li>Hospedagem grátis</li>
+                        <li>30 conntas de email</li>
+                        <li>C-panel</li>
+                    </ul>
+                    <div class="btn-escolher basic"><input type="button" value="escolher plano"></div>
+                </div>
+            </div>
+    
+            <div class="values-container">
+                <div>
+                    <div class="tipo-promo">Médio</div>
+                    <h2><span class="cents">R$</span> 32,<span class="cents">50</h2>
+                    <ul class="benefits">
+                        <li>1 ano de domínio grátis</li>
+                        <li>Hospedagem grátis</li>
+                        <li>45 contas de email</li>
+                        <li>C-panel</li>
+                        <li>Atendimento 24 horas</li>
+                        <li>Conexão com bando de dados Oracle</li>
+                        <li>Segurança contra DDos</li>
+                    </ul>
+                    <div class="btn-escolher medio"><input type="button" value="escolher plano"></div>
+                </div>
+            </div>
+    
+            <div class="values-container">
+                <div>
+                    <div class="tipo-promo">Power</div>
+                    <h2><span class="cents">R$</span> 45,<span class="cents">00</h2>
+                    <ul class="benefits">
+                        <li>1 ano de domínio grátis</li>
+                        <li>Hospedagem grátis</li>
+                        <li>90 conntas de email</li>
+                        <li>C-panel</li>
+                        <li>Atendimento 24 horas</li>
+                        <li>Conexão com bando de dados Oracle</li>
+                        <li>Atendimento exclusivo</li>
+                        <li>Segurança contra DDos</li>
+                        <li>Consultoria gratuita</li>
+                    </ul>
+                    <div class="btn-escolher"><input type="button" value="escolher plano"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </section> <!--preços e ofertas-->
+
+    <section class="buscar-domain">
+        <h2>Busque agora um domínio para você</h2>
+        <div class="form">
+            <form>
+                <label>Escreva o domínio para seu site</label>
+                <input type="text" placeholder="Digite o domínio desejado">
+                <div class="bt"><input type="button" value="Procurar domínio"></div>
+                
+            </form>
+        </div>  
+    </section>
+
+    <section class="send-msg">
+        <div class="titulo"><h2>Envie uma mensagem</h2></div>
+        <div class="dados">
+            <form>
+                <label for="nome" class="msg-send">Seu nome</label>
+                <input type="text" placeholder="digite seu nome" id="formulário-send">
+
+                <label for="email" class="msg-send">Seu email</label>
+                <input type="email" placeholder="digite seu email" class="formulário-send">
+
+                <label class="msg-send">escreva o que você precisa em seu site</label>
+                <textarea name="" id=""></textarea>
+
+                <input type="button" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h2 style="color: white;">developed By <a href="https://www.instagram.com/pedro09_ok/" class="insta">@pedro09_ok</a></h2>
+            <a href="https://www.linkedin.com/in/joao-pedro0911/">Linkedin</a>
+            <a href="https://github.com/Pedro0911">gitHub</a>
+
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
